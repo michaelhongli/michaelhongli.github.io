@@ -1,0 +1,45 @@
+.hero {
+    @include breakpoint-up(large){
+        display: flex;
+    }
+    
+
+    &_image {
+        background-image: url('/images/Navy\ Blue\ Minimalist\ Art\ NV281B.jpeg');
+        background: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 17.5rem;
+
+        @include breakpoint-up(large){
+            flex: 1;
+            order: 2;
+        }
+    }
+
+    &_text {
+        text-align: center;
+        margin-bottom: 90px;
+
+        @include breakpoint-up(large){
+            flex: 1;
+            order: 1;
+        }
+
+        h1 {
+            font-weight: 300;
+            font-size: 2.31rem;
+            line-height: 1.15;
+            color: $DarkBlue;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 2.25rem;
+        }
+        
+    }
+    }
+
+

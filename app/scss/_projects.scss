@@ -1,0 +1,33 @@
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 160px;
+    background-color: rgb(0, 0, 78); //rgba(193, 193, 254, 0.181);
+}
+
+.project-img{
+    width: 700px;
+}
+
+.project-description-container{
+    background-color: rgb(43, 0, 130); //rgba(0, 0, 174, 0.424);
+    color: rgb(232, 175, 70);
+    border-radius: 100px;
+    padding: 50px;
+    width: 560px;
+    
+}
+
+.project-description-title{
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+.project-description-body{
+    margin-top: 50px;
+}
+
+.even-count{
+    margin-left: 250px;
+}
